@@ -1,0 +1,22 @@
+.title-download{
+    text-align: center;
+    color: #478156;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 25px 0 10px;
+}
+
+.title-download h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #222c24;
+    margin-top: 5px;
+}
+
+.download{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 0 0 10px 0;
+}

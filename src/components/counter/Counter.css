@@ -1,0 +1,23 @@
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #333;
+  margin-top: 10px;
+}
+  
+.counter {
+  font-size: 40px;
+  font-weight: bold;
+}
+  
+.subtitle {
+  max-width: 175px;
+  font-size: 20px;
+  color: #666;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  }
+  
