@@ -201,9 +201,9 @@
     }
 }
 
-@media (max-width: 321px){
-    .specifics-box .iconv{
-        width: 100px;
-        height: 100px;
+@media (max-width: 361px){
+    .specifics-box {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 1fr);
     }
 }
