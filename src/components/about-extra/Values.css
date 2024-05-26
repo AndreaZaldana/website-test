@@ -200,3 +200,10 @@
         height: 130px;
     }
 }
+
+@media (max-width: 321px){
+    .specifics-box .iconv{
+        width: 100px;
+        height: 100px;
+    }
+}
