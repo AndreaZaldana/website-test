@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef} from 'react'
 import './About.css'
 import { faArrowCircleLeft } from '@fortawesome/free-solid-svg-icons'
 import { faArrowCircleRight } from '@fortawesome/free-solid-svg-icons'
@@ -34,10 +34,6 @@ const About = () => {
     return null;
   }
 
-  useEffect(() => {
-    // Set loading state to true when the component mounts or slide changes
-    setIsLoading(true);
-  }, [current]);
 
   return (
     <div className='about-container' id='aboutSection' ref={aboutRef}>

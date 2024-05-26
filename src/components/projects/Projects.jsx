@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import './Projects.css';
 import project1_img from '../../assets/projects-gallery/mulukuku.jpeg'
 import project2_img from '../../assets/projects-gallery/bluefields.jpg'
@@ -22,6 +22,20 @@ const projectsData = [
 const Projects = () => {
     const projectsRef = useNav('projects');
     const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
+    const [isLoading, setIsLoading] = useState(true);
+
+    const preloadImage = (src) => {
+      const img = new Image();
+      img.src = src;
+      img.onload = () => setIsLoading(false);
+    };
+
+    useEffect(() => {
+      if(projectsData[currentProjectIndex]){
+        setIsLoading(true);
+        preloadImage(projectsData[currentProjectIndex].imageUrl)
+      }
+    }, [currentProjectIndex, projectsData])
 
     const handleNextProject = () => {
         setCurrentProjectIndex((prevIndex) => (prevIndex + 1) % projectsData.length);
@@ -35,6 +49,7 @@ const Projects = () => {
 
   return (
     <div className="projects" id='projectSection' ref={projectsRef}>
+      {isLoading && <div className="spinner"></div>}
       <div
         className="project-image-container"
         style={{ backgroundImage: `url(${projectsData[currentProjectIndex].imageUrl})` }}>

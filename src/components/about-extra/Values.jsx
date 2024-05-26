@@ -30,7 +30,7 @@ const Values = () => {
                 <p>Ser una empresa líder, que contribuya a la sociedad, basada en la sensibilidad humana, conciencia
                 social, ambiental y óptimo uso de los recursos naturales dentro de la máxima productividad de obras
                 de construcción que cumpla con la expectativa de los clientes vanguardistas que requieran nuestra
-                experiencia en la ejecución de proyectos</p>
+                experiencia en la ejecución de proyectos.</p>
             </div>
         </div>
         <div className={isVisible ? 'headline' : 'headline show'} ref={headliner}>
@@ -68,7 +68,7 @@ const Values = () => {
                 <p>Ser una sólida y conveniente solución para la ejecución de obras civiles con la máxima calidad, en el
                 menor tiempo posible, al menor costo técnico y económicamente factible, utilizando para ello
                 eficientes procesos constructivos, personal de amplia experiencia y aplicación de estándares de calidad
-                en cada proceso de ejecución</p>
+                en cada proceso de ejecución.</p>
             </div>
         </div>
     </div>

@@ -130,11 +130,8 @@
     align-items: center;
   }
 
-  .caption-project p, .caption-project h3{
-    max-width: 80%;
-  }
-
   .caption-project h3{
+    max-width: 80%;
     align-self: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
   }

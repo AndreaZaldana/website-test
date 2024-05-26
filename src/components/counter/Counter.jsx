@@ -44,7 +44,7 @@ const Counter = ({value, subtitle, countRef}) => {
   
     return (
       <div className="counter-container">
-        <div className="counter">{count}+</div>
+        <div className="counter">{isVisible? count : value}+</div>
         <div className="subtitle">{subtitle}</div>
       </div>
     );
