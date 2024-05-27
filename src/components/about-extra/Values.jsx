@@ -34,25 +34,25 @@ const Values = () => {
             </div>
         </div>
         <div className={isVisible ? 'headline' : 'headline show'} ref={headliner}>
-            <p>Nos especializamos en <span>Diseño de mezclas</span>, <span>construcción de obras grises en
-            proyectos de obras civil</span>, <span>construcción de losas sobre el terreno</span> y <span> producción y colocación de concreto hidraulico.</span></p>
+            <p>Nos especializamos en Diseño de mezclas, construcción de obras grises en
+            proyectos de obras civil, construcción de losas sobre el terreno y <span> producción y colocación de concreto hidráulico.</span></p>
         </div>
         <div className="specifics">
             <div className="specifics-box">
                 <div className="iconv">
-                    <FontAwesomeIcon icon={faMix} size='3x' color='rgba(29, 147, 35, 1)'/>
+                    <FontAwesomeIcon icon={faMix} size='3x' color='#1a754b'/>
                     <img src={project4} alt="" className='imgc4'/>
                 </div>
                 <div className="iconv">
-                    <FontAwesomeIcon icon={faRoad} size='3x' color='rgba(29, 147, 35, 1)'/>
+                    <FontAwesomeIcon icon={faRoad} size='3x' color='#1a754b'/>
                     <img src={project3} alt="" className='imgc3'/>
                 </div>
                 <div className="iconv">
-                    <FontAwesomeIcon icon={faPersonDigging} size='3x' color='rgba(29, 147, 35, 1)'/>
+                    <FontAwesomeIcon icon={faPersonDigging} size='3x' color='#1a754b'/>
                     <img src={project2} alt="" className='imgc2'/>
                 </div>
                 <div className="iconv">
-                    <FontAwesomeIcon icon={faTrowelBricks} size='3x' color='rgba(29, 147, 35, 1)'/>
+                    <FontAwesomeIcon icon={faTrowelBricks} size='3x' color='#1a754b'/>
                     <img src={project1} alt="" className='imgc1'/>
                 </div>
             </div>

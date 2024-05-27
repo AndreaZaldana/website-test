@@ -85,6 +85,7 @@
 
 .thumbnail.selected {
   opacity: 1;
+  border: solid 4px rgba(245, 245, 245, 0.8);
 }
 
 .project-image-container .btn{

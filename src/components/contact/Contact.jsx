@@ -94,7 +94,7 @@ const Contact = () => {
                 <input type="tel" name='phone' placeholder='Ingresa tu número de teléfono'/>
                 <label>Escribe tu mensaje</label>
                 <textarea name="message" rows="6" placeholder='Escribe aquí' required></textarea>
-                <button type='submit' className='dark-btn btn'>Enviar </button>
+                <button type='submit' className='btn'>Enviar </button>
             </form>
             <span>{result}</span>
         </div>
