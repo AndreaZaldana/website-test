@@ -80,6 +80,12 @@
     font-size: 20px;
 }
 
+.service-icon .title-product{
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
 .service-icon .icon-tag{
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.4));
 }

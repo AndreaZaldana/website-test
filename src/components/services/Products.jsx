@@ -24,8 +24,10 @@ const Products = () => {
             <div className="serviceImg">
                 <img src={service2} alt="" />
                 <div className="service-icon" style={{background: serviceOn===0? 'rgba(107, 123, 140, 1)' : 'transparent'}}>
-                    <FontAwesomeIcon icon={faRoad} className='icon-tag'/>
-                    <h3>Calles de concreto</h3>
+                    <div className="title-product">
+                        <h3>Calles de concreto</h3>
+                        <FontAwesomeIcon icon={faRoad} className='icon-tag'/>
+                    </div>
                     <button className='btn'><FontAwesomeIcon icon={faArrowRightLong} /></button>
                 </div>
             </div>
@@ -42,8 +44,10 @@ const Products = () => {
             <div className="serviceImg">
                 <img src={service1} alt="" />
                 <div className="service-icon" style={{background: serviceOn===1? 'rgba(34, 173, 154, 1)' : 'transparent'}}>
-                    <FontAwesomeIcon icon={faPersonDigging} className='icon-tag'/>
-                    <h3>Acabados finos</h3>
+                    <div className="title-product">
+                        <h3>Acabados finos</h3>
+                        <FontAwesomeIcon icon={faPersonDigging} className='icon-tag'/>
+                    </div>
                     <button className='btn'><FontAwesomeIcon icon={faArrowRightLong} /></button>
                 </div>
             </div>
@@ -60,8 +64,10 @@ const Products = () => {
             <div className="serviceImg">
                 <img src={service3} alt="" />
                 <div className="service-icon" style={{background: serviceOn===2? 'rgba(29, 147, 35, 1)' : 'transparent'}}>
-                    <FontAwesomeIcon icon={faHouse} className='icon-tag'/>
-                    <h3>Viviendas</h3>
+                    <div className="title-product">
+                        <h3>Viviendas</h3>
+                        <FontAwesomeIcon icon={faHouse} className='icon-tag'/>
+                    </div>
                     <button className='btn'><FontAwesomeIcon icon={faArrowRightLong} /></button>
                 </div>
             </div>
