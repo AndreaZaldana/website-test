@@ -95,10 +95,6 @@
     letter-spacing: 1px;
 }
 
-.big-text .highlight{
-    color: #1d9323;
-}
-
 .slide {
     opacity: 0;
     transition-duration: 1s ease;
@@ -164,7 +160,7 @@
         align-items: center;
         gap: 20px;
     }
-
+    
     .stat{
         flex-direction: row;
         justify-content: center;
@@ -172,6 +168,7 @@
     }
 
     .stat img{
+        width: 50px;
         padding-bottom: 20px;
     }
 

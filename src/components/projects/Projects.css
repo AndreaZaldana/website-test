@@ -189,12 +189,11 @@
   .project-image-container .btn.next {
     right: 25%;
   }
-  
-  @media (max-width: 340px) {
-    .projects{
-      min-width: 250px; 
-    }
-    
+}
+
+@media (max-width: 340px) {
+  .projects{
+    min-width: 270px; 
   }
 }
 

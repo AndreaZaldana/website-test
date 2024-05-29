@@ -23,6 +23,11 @@ a{
   padding-right: 10%;
 }
 
+.highlight{
+  color: #115f15;
+  text-transform: uppercase;
+}
+
 .btn{
   background: #fff;
   color: #212121;

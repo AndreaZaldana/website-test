@@ -5,6 +5,7 @@
     font-weight: 600;
     text-transform: uppercase;
     margin: 70px 0 30px;
+    min-width: 250px;
 }
 
 .title h2{
