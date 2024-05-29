@@ -64,8 +64,6 @@ a{
 
 @media (min-width: 2560px) {
   body{
-    max-width: 2560px;
     margin: 0 auto;
-    padding: 0 20px;
   }
 }

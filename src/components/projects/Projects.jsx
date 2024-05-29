@@ -38,13 +38,11 @@ const Projects = () => {
     }, [currentProjectIndex, projectsData])
 
     const handleNextProject = () => {
-        setCurrentProjectIndex((prevIndex) => (prevIndex + 1) % projectsData.length);
+        setCurrentProjectIndex(currentProjectIndex === projectsData.length - 1 ? 0 : currentProjectIndex + 1);
     };
 
     const handlePrevProject = () => {
-        setCurrentProjectIndex((prevIndex) =>
-        prevIndex === 0 ? projectsData.length - 1 : prevIndex - 1
-    );
+      setCurrentProjectIndex(currentProjectIndex === 0 ? projectsData.length - 1 : currentProjectIndex - 1);
   };
 
   return (
